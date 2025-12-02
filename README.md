@@ -145,7 +145,7 @@ The system relies on a focused stack of accessible, open-source Python libraries
 4.  **Run the Application:**
 
     ```bash
-    streamlit run app/app.py
+    python -m streamlit run app/app.py
     ```
 
 The application will open in your browser, ready for use.
