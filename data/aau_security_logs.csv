@@ -1,0 +1,18 @@
+Date,Time,Location,Incident Type,Severity,Description,Electricity Status,Semester Period,Academic Context
+2024-01-15,08:30,Hostel Block C,Theft,Medium,"Student's wallet stolen",Light,Early,Lecture
+2024-01-15,22:15,Perimeter Wall North,Breach,High,"Gap found in fence, no entry detected",No Light,Early,Weekend
+2024-01-16,19:45,LT Complex,Vandalism,Low,"Graffiti on wall",Light,Early,Lecture
+2024-01-17,01:00,Hostel Gate,Illegal Entry,High,"Non-student attempted entry",No Light,Early,Weekend
+2024-01-17,23:50,Back Gate,Cult Clash,High,"Two groups engaged briefly",No Light,Early,Weekend
+2024-01-18,17:20,Faculty of Arts,Theft,Medium,"Laptop stolen from office",Light,Early,Lecture
+2024-01-19,05:40,Staff Quarters,Theft,Low,"Missing gardening tool",Light,Early,Weekend
+2024-01-19,20:00,Hostel Block C,Fight,Medium,"Argument escalated to physical fight",No Light,Early,Weekend
+2024-01-20,21:00,Perimeter Wall South,Breach,Medium,"Suspicious activity reported",Light,Early,Weekend
+2024-01-21,11:30,Faculty of Education,Theft,Low,"Phone charger stolen",Light,Early,Lecture
+2024-01-22,22:30,Hostel Extension Gate,Theft,High,"Phone stolen during blackout",No Light,Early,Weekend
+2024-01-23,19:00,LT Complex,Vandalism,Medium,"Broke a window",No Light,Early,Lecture
+2024-01-24,00:00,Hostel Gate,Illegal Entry,High,"Unknown individual found sleeping",No Light,Early,Weekend
+2024-01-24,23:50,Back Gate,Cult Clash,High,"Loud noise, no direct clash confirmed",No Light,Early,Weekend
+2024-01-25,18:00,Faculty of Arts,Theft,Medium,"Bag snatched",Light,Early,Lecture
+2024-01-26,06:00,Staff Quarters,Theft,Low,"Missing bike",Light,Early,Weekend
+2024-01-26,20:00,Hostel Block C,Fight,High,"Major fight, police called",No Light,Early,Weekend

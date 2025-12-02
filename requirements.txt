@@ -1,0 +1,9 @@
+# requirements.txt
+pandas
+numpy
+scikit-learn
+streamlit
+matplotlib
+seaborn
+requests  # For news API
+fpdf # For report generation (PDF export)
