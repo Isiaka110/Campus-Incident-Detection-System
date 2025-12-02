@@ -3,6 +3,7 @@ pandas
 numpy
 scikit-learn
 streamlit
+plotly
 matplotlib
 seaborn
 requests  # For news API
