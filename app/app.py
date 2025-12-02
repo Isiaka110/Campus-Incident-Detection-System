@@ -4,16 +4,25 @@ import pandas as pd
 import io
 import os
 from pathlib import Path
-import plotly.express as px # <--- NEW IMPORT
+import plotly.express as px
+import numpy as np # Used in create_plotly_heatmap
+
+# -------------------------------------------------------------------------
+# CRITICAL FIX: Ensure 'utils', 'model', and 'news' modules are visible
+# This addresses ModuleNotFoundError: No module named 'utils' on Streamlit Cloud
+import sys
+# Moves the Python search path up one directory to the project root
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+# -------------------------------------------------------------------------
 
 # Use the safe loading logic from the training script
-from utils.preprocessing import load_data # Removed feature_engineering import from here
-from utils.visualization import create_bar_chart # Keeping this if you still use it
+from utils.preprocessing import load_data 
+from utils.visualization import create_bar_chart 
 from utils.report_exporter import create_pdf_report
 from model.predictor import predict_risks, IS_MODEL_LOADED
 from news.news_fetch import fetch_aau_news
-from model.train import train_model # Import for retraining option
-import numpy as np # <--- NEW IMPORT
+from model.train import train_model 
+# ... rest of the file ...
 
 # --- Configuration ---
 st.set_page_config(
